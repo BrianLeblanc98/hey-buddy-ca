@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Comic Sans MS';
+    src: url("data/fonts/comic-sans-ms/COMIC.TTF");
+}
+
 body {
     background-color: black;
     background-image: url("./data/images/fire.gif");
@@ -7,7 +12,7 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 144px;
+    font-size: 120px;
 }
 
 p {
@@ -25,9 +30,9 @@ p {
     display: block;
     color: #FFFFFF;
     text-align: center;
-    padding: 14px 16px;
+    padding: 25px 25px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 70px;
 }
 
 .main-text {
@@ -41,7 +46,7 @@ p {
 
 .rainbow-text {
     background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
-    -webkit-text-stroke: 3px black;
+    -webkit-text-stroke: 2px black;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
